@@ -4,6 +4,7 @@ function calcola(stringa){
     if(stringa.length == 0){
         alert("stringa vuota");
     }else{
+        stringa = stringa.toLowerCase();
         nOccorrenze = 0;
         for(var i = 0 ; i < stringa.length ; i++){
             if(stringa[i] == 'c' ){
@@ -17,7 +18,7 @@ function calcola(stringa){
 
 $(document).ready(function(){
     calcola("");
-    calcola("ciao");
+    calcola("Ciao");
     calcola("stai");
     
 });
