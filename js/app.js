@@ -16,8 +16,8 @@ function calcola(stringa){
 }
 
 $(document).ready(function(){
-    /*calcola("");
+    calcola("");
     calcola("ciao");
-    calcola("stai");*/
+    calcola("stai");
     
 });
